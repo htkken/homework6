@@ -1,0 +1,108 @@
+div {
+    float: left;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background: lightblue;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    background: yellow;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: orange;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.sidebar {
+    width: 25%;
+    height: 450px;
+    background: navy;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 450px;
+}
+
+.main {
+    width: 75%;
+    height: 450px;
+    background: green;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 450px;
+}
+
+.nav1 {
+    background: #fcfcfc;
+}
+
+.nav1>li {
+    display: inline-block;
+    border:1px solid #ddd;
+    border-right:0px;
+    border-left:-5px;
+    padding:.5em 1em;
+    width:25%;
+    box-sizing:border-box;
+    position:relative;
+    
+}
+.nav1>li:last-child{border-right: 1px solid #ddd}
+.submenu {
+    width: 200px;
+    padding: 0px;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position:absolute;
+    left:0px;
+    top:100%;
+    display:none;
+    
+}
+
+.nav1>li:hover .submenu{display:block;}
+
+.submenu li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 0.5em 15px;
+}
+
+body {
+    min-height: 3000px;
+}
+.submenu li:hover{background: white;}
+
+.circle{
+    width:60px;
+    height:60px;
+border-radius:50%;
+    background:red;
+    text-align: center
+    font-size:50px;
+    color:white;
+    position:fixed;
+    bottom:2%;
+    right:1%;
+  ;}
